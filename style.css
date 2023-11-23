@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tarjet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    max-height: 550px;
+}
+.tarjet div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    font-size: 38px;
+    color: rgb(20, 66, 66);
+}
+#image {
+    margin: 10px;
+    max-width: 50%;
+    height: 500px;
+}
+
+header,footer{
+    border: 2px solid #bdbdbd;
+    background-color: rgb(47, 96, 116);
+    color: bisque;
+}
+header{
+    padding: 5px;
+    font-size: 28px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+    text-align: center;
+}
+
+#boton{
+    color: antiquewhite;
+    background-color: rgb(47, 96, 116);
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+}
